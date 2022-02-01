@@ -1,0 +1,74 @@
+
+/* NOTES */
+
+/* GENERAL */
+
+	body
+		{background-color: #000000;
+		maring: 0;
+		padding: 0;
+		display: block;	/* MANDATORY FOR FIXED POS */
+		width: 100%;}
+
+
+/* START: MAIN MENU */
+
+	.main-menu
+		{background-color: #000000;
+		position: fixed;	/* STATIONARY ON SCREEN ON SCROLL */
+		top: 0;
+		left: 0;
+		width: 2em;
+		height: 2em;
+		border-radius: 10px;
+		overflow: hidden;
+		white-space: nowrap;	/* TEXT WRAPPING */
+		box-shadow: 0px 0px 20px 3px #ffffff;
+		transition: .3s ease;
+		margin: 5px;}
+
+	.main-menu:hover
+		{width: fit-content;
+		height: fit-content;
+		box-shadow: 0px 0px 20px 3px #ffffff;}
+
+	.main-menu:hover:active
+		{width: fit-content;
+		height: fit-content;
+		box-shadow: 0px 0px 0px #000000;}
+
+	.main-menu .main-menu-item
+		{padding-top: 1.5px;
+		padding-bottom: 2px;
+		padding-right: 2px;
+		padding-left: 3.5px;
+		margin: 2px;
+		font-size: 1.5rem;
+		color: #ffffff;}
+
+	.main-menu a
+		{font-family: 'Comforter', cursive;
+		padding-left: 15px;}
+
+	.main-menu a:link
+		{color: #000000;
+		background-color: transparent;
+		text-decoration: none;}
+
+	.main-menu a:visited
+		{color: #000000;
+		background-color: transparent;
+		text-decoration: none;}
+
+	.main-menu a:hover
+		{color: #ffffff;
+		background-color: transparent;
+		text-decoration: none;}
+
+	.main-menu a:active
+		{color: #a40606;
+		background-color: transparent;
+		text-decoration: none;}
+
+/* END: MAIN MENU */
+
